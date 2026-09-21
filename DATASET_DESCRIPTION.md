@@ -40,3 +40,5 @@ The simulator uses sequential resolution of detected contacts at two fixed subst
 ## License and source
 
 The creator dedicates the original code, documentation, and generated numerical corpus under **CC0 1.0 Universal**, to the extent applicable rights are held. Runtime libraries retain their own licenses. A public source URL should be entered only after the source repository actually exists; the generic CC0 legal page is not a dataset source URL.
+
+Verified source repository: `https://github.com/anjalikhatri019-hub/impact-cipher-dataset-source`
