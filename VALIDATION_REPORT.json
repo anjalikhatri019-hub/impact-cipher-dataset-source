@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "raw_rows": 2400,
+  "train": 2000,
+  "test": 400,
+  "raw_parquet_bytes": 265286544,
+  "dataset_zip_bytes": 265297274,
+  "raw_sha256": "84a2c88c15be95477f0c9e9a22a22eff15355077226365ce0f648f7fe93dc867",
+  "dataset_zip_sha256": "a06cd6edcd03f37332016752d526824600340489220a315a9334a248237b0b8c",
+  "prepare_twice_byte_identical": true,
+  "prepared_sha256": {
+    "public/protocol.json": "5280cb508f9b0809788d345313786a8cda70f26f51f6950761216907c4e0af39",
+    "public/sample_submission.csv": "bade42c088619d2b4ee67c8f1b78c172a6031bfc0b1cccf8bd8138bd0d056da5",
+    "public/test.parquet": "cdce0e49682cd2eea477c18b0eb42f484473f900a4ed36e66579e796c0ce4b30",
+    "public/train.parquet": "85befb64b976bb7e84c30e476a3f0b19d9b81633f0654aec7878725180825c43",
+    "private/answers.csv": "d5f266619c51cd5c84daf3b26222b074bffcdd7b6c93ac2652eceab6a12692f1"
+  },
+  "public_target_leakage": false,
+  "all_zero_score": 0.0,
+  "grader_contract": {
+    "perfect": 1.0,
+    "visibility_subset": 1.0,
+    "invalid_cases_rejected": 11
+  }
+}

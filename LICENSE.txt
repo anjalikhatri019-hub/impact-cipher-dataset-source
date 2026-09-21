@@ -1,0 +1,7 @@
+SPDX-License-Identifier: CC0-1.0
+
+Impact Cipher original code, documentation, and numerically generated dataset.
+To the extent the creator holds copyright or related rights, those rights are
+dedicated to the public domain under CC0 1.0 Universal. No warranty is given.
+
+Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode

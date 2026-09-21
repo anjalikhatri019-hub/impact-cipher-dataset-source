@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "rows": 2400,
+  "train_rows": 2000,
+  "test_rows": 400,
+  "seed_sha256": "12f08dacd24b1ece7777374cf49e1f2bb38c1c0f9d79198db1252195079c68bb",
+  "raw_sha256": "84a2c88c15be95477f0c9e9a22a22eff15355077226365ce0f648f7fe93dc867",
+  "calibration_shape": [
+    4,
+    160,
+    10,
+    4
+  ],
+  "target_values": 65
+}

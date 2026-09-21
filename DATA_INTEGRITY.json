@@ -1,0 +1,17 @@
+{
+  "rows": 2400,
+  "train": 2000,
+  "test": 400,
+  "raw_parquet_bytes": 265286544,
+  "dataset_zip_bytes": 265297274,
+  "raw_sha256": "84a2c88c15be95477f0c9e9a22a22eff15355077226365ce0f648f7fe93dc867",
+  "dataset_zip_sha256": "a06cd6edcd03f37332016752d526824600340489220a315a9334a248237b0b8c",
+  "archive_members": [
+    "impact_cipher_raw.parquet",
+    "generation_metadata.json",
+    "generate_dataset.py",
+    "LICENSE.txt"
+  ],
+  "prepare_twice_byte_identical": true,
+  "public_target_leakage": false
+}
