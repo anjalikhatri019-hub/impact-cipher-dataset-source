@@ -21,19 +21,19 @@ The data support research and benchmarking in system identification, physics-inf
 
 ## Raw columns
 
-| Column | Type | Meaning |
-|---|---|---|
-| `sample_id` | string | Opaque raw identifier. |
-| `split` | string | Organizer-only `train` or `test`. |
-| `family_id` | int | Organizer-only mass-profile family, 0–29. |
-| `validation_fold` | int | Organizer-only/public-train fold marker. |
-| `mass_bytes` | binary | Organizer-only hidden float32 masses for reproducibility audits. |
-| `radii_bytes` | binary | Little-endian float32 `[10]`. |
-| `calibration_initial_bytes` | binary | Little-endian float32 `[4,10,4]` initial `(x,y,vx,vy)`. |
-| `calibration_state_bytes` | binary | Little-endian float32 `[4,160,10,4]` noisy observed states. |
-| `calibration_valid_bytes` | binary | uint8 `[4,160,10]`; validity is per disc state. |
-| `query_initial_bytes` | binary | Little-endian float32 `[10,4]` counterfactual initial state. |
-| `target_values` | string | 45 cumulative pair impulses then 20 terminal velocity components. |
+Raw columns:
+
+- `sample_id` — string. Opaque raw identifier.
+- `split` — string. Organizer-only `train` or `test` marker.
+- `family_id` — integer. Organizer-only mass-profile family from 0 through 29.
+- `validation_fold` — integer. Organizer-only/public-training fold marker.
+- `mass_bytes` — binary. Organizer-only hidden float32 masses for reproducibility audits.
+- `radii_bytes` — binary little-endian float32 `[10]`.
+- `calibration_initial_bytes` — binary little-endian float32 `[4,10,4]` initial `(x,y,vx,vy)`.
+- `calibration_state_bytes` — binary little-endian float32 `[4,160,10,4]` noisy observed states.
+- `calibration_valid_bytes` — binary uint8 `[4,160,10]`; validity is per disc state.
+- `query_initial_bytes` — binary little-endian float32 `[10,4]` counterfactual initial state.
+- `target_values` — string containing 45 cumulative pair impulses followed by 20 terminal velocity components.
 
 Invalid calibration states are represented by four NaNs and a zero validity entry. Array order is C order. Pair order is lexicographic over `i < j`.
 
